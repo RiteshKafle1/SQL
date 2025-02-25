@@ -13,6 +13,8 @@ CREATE TABLE MOVIES(
 -- TO SELECT A SPECIFIC FIELD
 -- SELECT name from movies
 
+DROP TABLE movies;
+
 
 
 
