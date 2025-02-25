@@ -41,7 +41,7 @@ FROM student;
 SELECT * FROM student WHERE id = 1;
 
 -- selects specified fields ,id must be 1
-SELECT name, address FROM student WHERE id = 1;
+SELECT name, address, id FROM student WHERE id = 1;
 
 -- selects specified fields but hobby must be cricket
 
@@ -62,3 +62,11 @@ SELECT
 FROM student
 WHERE
     hobby = 'cricket';
+
+-----------------------------------------------------------
+-- display the fields with new  name.
+SELECT id as student_id from student;
+
+SELECT name as student_name from student;
+
+SELECT address as ADDRESS_STUDENT from student;
