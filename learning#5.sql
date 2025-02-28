@@ -58,3 +58,6 @@ SET
     password = 'david456'
 WHERE
     name = 'hari'
+
+DELETE FROM users
+WHERE id=2
