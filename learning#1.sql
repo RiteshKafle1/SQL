@@ -1,4 +1,3 @@
--- Active: 1740393092337@@127.0.0.1@3306@learning
 -- This is the way to create a database
 -- CREATE DATABASE db_name;
 
@@ -12,4 +11,4 @@
 -- USE LEARNING;
 
 -- show the current db you are using.
--- SELECT DATABASE() 
+SELECT DATABASE() 

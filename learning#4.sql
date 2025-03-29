@@ -6,7 +6,8 @@ CREATE TABLE STUDENT (
     hobby VARCHAR(20),
     weight DOUBLE,
     height DOUBLE
-)
+);
+drop table student;
 
 INSERT INTO
     student (
@@ -32,7 +33,7 @@ VALUES (
         'cricket',
         70.2,
         5.5
-    )
+    );
     -- selects all the fields from the student table
 SELECT *
 FROM student;

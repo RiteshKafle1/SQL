@@ -6,9 +6,9 @@ CREATE TABLE MOVIES(
 
 -- INSERT DATA INTO THE TABLE AND DISPLAT IT
 
--- INSERT INTO movies(name,release_year,ratings)
--- VALUES('mahadev',2026,5),('shreeram',2025,5)
--- SELECT * FROM movies;
+INSERT INTO movies(name,release_year,ratings)
+VALUES('mahadev',2026,5),('shreeram',2025,5);
+SELECT * FROM movies;
 
 -- TO SELECT A SPECIFIC FIELD
 -- SELECT name from movies

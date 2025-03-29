@@ -42,6 +42,6 @@ SELECT * from products where CHARACTER_LENGTH(p_name) BETWEEN 1 and 5
 -- *******************************************
 SELECT * from products WHERE p_price IN (500, 800, 900);
 
-SELECT * from products WHERE id IN (1, 3, 5,8);
+SELECT * from products WHERE id IN (1, 3, 5);
 
 SELECT * from products WHERE p_name IN ('bag', 'shoe','bottle');

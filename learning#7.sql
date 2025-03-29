@@ -6,6 +6,7 @@ CREATE TABLE products (
     p_price INT DEFAULT 0,
     p_desc VARCHAR(50)
 );
+drop table products;
 
 INSERT into
     products (p_name, p_price, p_desc)

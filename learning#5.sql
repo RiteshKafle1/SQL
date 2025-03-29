@@ -5,7 +5,7 @@ CREATE TABLE USERS (
     email VARCHAR(30),
     password VARCHAR(30)
 );
-
+drop TABLE users;
 SELECT * FROM users;
 
 INSERT INTO
