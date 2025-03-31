@@ -58,5 +58,7 @@ VALUES('ramCharan',20),('AlexChand',30),('BintuGunda',50),('LaluBhatt',16)
 
 SELECT * from employee;
 
+drop table employee;
+
 
 
